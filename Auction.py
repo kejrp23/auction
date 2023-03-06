@@ -13,7 +13,7 @@ url = 'https://www.treasury.gov/auctions/treasury/rp/realprop.shtml'
 #url = 'https://datascienceatthecommandline.com/2e/chapter-2-getting-started.html'
 
 
-data = requests.get(url, headers = HEADERS)
+data = requests.get(url, headers = HEADERS,verify=False)
 
 
 
